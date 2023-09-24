@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon-cloud.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javascript/main.js"></script>
+        <title>Weather App</title>
+    </head>
+    <body>
+        <main>
+            <div id="main-content">
+                <h1>Weather App</h1>
+                <form>
+                    <label for="city-name-field">Type a city name to discover the current weather</label><br>
+                    <input type="text" name="city-name-field" id="city-name-field" placeholder="i.e. London"><br>
+                    <input type="button" onclick="getLatLong()" value="Send" id="submit-field">
+                    <p id="error-not-found">We couldn't find the city. Please try again.</p>
+                    <p id="location"></p>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="humidity"></p>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Developed by <em>Lucas Fernando</em>. Find out this project code <a href="" target="_blank">here</a></p>
+        </footer>
+    </body>
+</html>
