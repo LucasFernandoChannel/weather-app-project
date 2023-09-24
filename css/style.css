@@ -1,0 +1,92 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#main-content {
+    background-color: #f2f2f2;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    margin-top: 200px;
+    padding: 20px 50px;
+}
+
+input {
+    border-radius: 10px;
+    font-size: 14pt;
+    padding: 10px 14px;
+    width: 100%;
+}
+
+input#city-name-field {
+    border: 1px solid #000000;
+    margin: 5px 0 10px 0;
+}
+
+input#city-name-field:focus {
+    border: 1px solid  #FF5733;     
+}
+
+input#submit-field {
+    background-color: #228B22;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+input#submit-field:hover {
+    background-color: #023020;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 2px solid #000000;
+    padding: 20px 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+a {
+    color: #228B22;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #023020;
+}
+
+p#error-not-found, p#location, p#temp, p#description, p#humidity {
+    display: none;
+}
+
+p#location, p#description {
+    text-transform: lowercase;
+}
+
+p#location::first-letter {
+    text-transform: uppercase;
+}
+
+p#description::first-letter {
+    text-transform: uppercase;
+}
