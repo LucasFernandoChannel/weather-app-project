@@ -14,7 +14,7 @@ function getLatLong() {
 
     let url = "https://api.openweathermap.org/data/2.5/weather?q=";
     let city_name = document.getElementById("city-name-field").value;
-    const api_key = "";
+    const api_key = "YOUR_OPEN_WEATHER_API_KEY";
 
     // Clean input field
     document.getElementById("city-name-field").value = "";
