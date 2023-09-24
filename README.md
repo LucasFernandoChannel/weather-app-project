@@ -11,3 +11,14 @@ Este repositório guarda todos os arquivos usados no projeto aplicativo web da p
 Na verdade esse projeto é uma aplicação front-end. Há um arquivo Javascript que chama a API OpenWeather passando o nome da cidade e recebendo um texto cheio de dados. O códifo extraí a informação correta e a coloca dentro das tags HTML adequadas. Para fazer isso funcionar, você precisa editar a variável **api_key** para armazenar a sua própria chave API (essa chave é providenciada quando você cria uma conta OpenWeather). Por exemplo:
 
 **const api_key = "&appid=9b29dghi2ed1ft259329351e44f3d904";**
+
+First page | Página inicial
+![Screenshot of a first page.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page01.png)
+
+
+Results for the search Florianópolis | Resultados para a pesquisa Florianópolis
+![Screenshot of the results for the search Florianópolis.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page02.png)
+
+
+Error message displayed after searching a city that doesn't exist | Mensagem de erro exibida após pesquisar uma cidade que não existe
+![Screenshot of the error message displayed after searching a city that doesn't exist.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page03.png)
