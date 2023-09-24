@@ -34,6 +34,6 @@ Resultados para a pesquisa Florianópolis
 Mensagem de erro exibida após pesquisar uma cidade que não existe
 ![Screenshot of the error message displayed after searching a city that doesn't exist.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page03.png)
 
-As images acima mostram a aplicação rodando de um computado local. Mas o programa também pode ser executado a partir de um ambiente Docker, como você pode ver abaixo.
+As imagens acima mostram a aplicação rodando de um computado local. Mas o programa também pode ser executado a partir de um ambiente Docker, como você pode ver abaixo.
 
 ![Screenshot of the first page running from Docker environment.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page04.png)
