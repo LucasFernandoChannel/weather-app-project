@@ -5,6 +5,19 @@ In fact, this project is a front-end application. There is a Javascript file tha
 
 **const api_key = "&appid=9b29dghi2ed1ft259329351e44f3d904";**
 
+First page
+![Screenshot of a first page.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page01.png)
+
+Results for the search Florianópolis
+![Screenshot of the results for the search Florianópolis.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page02.png)
+
+Error message displayed after searching a city that doesn't exist
+![Screenshot of the error message displayed after searching a city that doesn't exist.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page03.png)
+
+The images above show the application running from a local computer. But it can also run from a Docker environment as you can see below.
+
+![Screenshot of the first page running from Docker environment.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page04.png)
+
 # Projeto aplicativo web da previsão do tempo
 Este repositório guarda todos os arquivos usados no projeto aplicativo web da previsão do tempo. Isso é um site que contém um campo de texto e um botão. O usuário pode digitar o nome de qualquer cidade que o sistema irá mostrar a temperatura atual, humidade relativa do ar e uma descrição do tempo (ensolarado, nublado e assim por diante). Se o aplicativo não encontrar nenhuma informação sobre a cidade, ele informa ao usuário que deveria checar o que escreveu e tentar novamente.
 
@@ -12,13 +25,15 @@ Na verdade esse projeto é uma aplicação front-end. Há um arquivo Javascript 
 
 **const api_key = "&appid=9b29dghi2ed1ft259329351e44f3d904";**
 
-First page | Página inicial
+Página inicial
 ![Screenshot of a first page.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page01.png)
 
-
-Results for the search Florianópolis | Resultados para a pesquisa Florianópolis
+Resultados para a pesquisa Florianópolis
 ![Screenshot of the results for the search Florianópolis.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page02.png)
 
-
-Error message displayed after searching a city that doesn't exist | Mensagem de erro exibida após pesquisar uma cidade que não existe
+Mensagem de erro exibida após pesquisar uma cidade que não existe
 ![Screenshot of the error message displayed after searching a city that doesn't exist.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page03.png)
+
+As images acima mostram a aplicação rodando de um computado local. Mas o programa também pode ser executado a partir de um ambiente Docker, como você pode ver abaixo.
+
+![Screenshot of the first page running from Docker environment.](https://github.com/LucasFernandoChannel/weather-app-project/blob/main/screenshots/page04.png)
